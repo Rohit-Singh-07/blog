@@ -1,0 +1,60 @@
+# -----------------------
+# Node.js + TypeScript
+# -----------------------
+**/node_modules/
+**/dist/
+**/*.tsbuildinfo
+
+# -----------------------
+# React / Frontend
+# -----------------------
+**/build/
+**/.cache/
+**/.next/
+**/.turbo/
+**/.parcel-cache/
+**/public/static/
+
+# -----------------------
+# Logs
+# -----------------------
+logs/
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# -----------------------
+# Env Files (secrets)
+# -----------------------
+.env
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+
+# -----------------------
+# Coverage
+# -----------------------
+coverage/
+.nyc_output/
+
+# -----------------------
+# IDE / OS junk
+# -----------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Docker / Local Volumes
+# -----------------------
+**/.docker/
+docker-compose.override.yml
+docker-compose.*.yml
+data/
+db-data/
+redis-data/
+rabbitmq-data/
